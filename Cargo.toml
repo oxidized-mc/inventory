@@ -12,6 +12,9 @@ keywords     = ["minecraft", "oxidized-mc"]
 categories   = ["game-development"]
 
 [dependencies]
+oxidized-nbt      = { git = "https://github.com/oxidized-mc/nbt.git" }
+oxidized-registry = { path = "../registry" }
+thiserror = "2"
 
 [dev-dependencies]
 proptest = "1"
