@@ -52,3 +52,4 @@ oxidized-nbt = { path = "../nbt" }
 
 [patch."https://github.com/oxidized-mc/registry.git"]
 oxidized-registry = { path = "../registry" }
+
