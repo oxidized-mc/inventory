@@ -12,8 +12,8 @@ keywords     = ["minecraft", "oxidized-mc"]
 categories   = ["game-development"]
 
 [dependencies]
-oxidized-nbt      = { version = "0.1" }
-oxidized-registry = { version = "0.1" }
+oxidized-nbt         = { git = "https://github.com/oxidized-mc/nbt.git" }
+oxidized-registry    = { git = "https://github.com/oxidized-mc/registry.git" }
 thiserror = "2"
 
 [dev-dependencies]
@@ -47,6 +47,8 @@ cast_possible_truncation   = "allow"
 cast_sign_loss             = "allow"
 cast_possible_wrap         = "allow"
 
-[patch.crates-io]
-oxidized-nbt      = { path = "../nbt" }
+[patch."https://github.com/oxidized-mc/nbt.git"]
+oxidized-nbt = { path = "../nbt" }
+
+[patch."https://github.com/oxidized-mc/registry.git"]
 oxidized-registry = { path = "../registry" }
