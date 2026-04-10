@@ -48,7 +48,3 @@ must_use_candidate         = "allow"
 cast_possible_truncation   = "allow"
 cast_sign_loss             = "allow"
 cast_possible_wrap         = "allow"
-
-[patch.crates-io]
-oxidized-nbt = { path = "../nbt" }
-oxidized-registry = { path = "../registry" }
