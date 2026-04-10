@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/oxidized-mc/inventory/actions/workflows/ci.yml/badge.svg)](https://github.com/oxidized-mc/inventory/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Crates.io](https://img.shields.io/crates/v/oxidized-inventory.svg)](https://crates.io/crates/oxidized-inventory)
 
 ItemStack, DataComponentPatch, MenuType, and item management utilities
 
